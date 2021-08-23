@@ -17,7 +17,6 @@ module.exports = {
     .setDescription(`Want me in your server? Invite me today! \n\n [Invite Link](https://discord.com/oauth2/authorize?client_id=${client.user.id}&permissions=${permissions}&scope=bot)`)
     .setURL(`https://discord.com/oauth2/authorize?client_id=${client.user.id}&permissions=${permissions}&scope=bot`)
     .setColor("#fffdd0")
-    .setFooter("Invite me!!","https://github.com/navaneethkm004/my-images/blob/main/giphy.gif?raw=true")
     return message.channel.send(invite);
   },
 };
